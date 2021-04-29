@@ -3,9 +3,9 @@ import java.util.*;
   public static void main(String[] args) {
     Scanner user = new Scanner(System.in);
     
-    System.out.println("Enter the width of the livingroom? ");
+    System.out.println("Enter the width of the livingRoom? ");
      double width = user.nextDouble(); 
-    System.out.println("Enter the length of the rectangle? ");
+    System.out.println("Enter the length of the livingRoom? ");
     double length = user.nextDouble(); 
 
     Rectangle livingRoom = new Rectangle();
@@ -13,9 +13,9 @@ import java.util.*;
     livingRoom.setWidth(width);
     double areaLivingRoom = livingRoom.calculateArea();
 
-System.out.println("Enter the width of the rectangle? ");
+System.out.println("Enter the width of the BedRoom? ");
      width = user.nextDouble(); 
-    System.out.println("Enter the length of the rectangle? ");
+    System.out.println("Enter the length of the BedRoom? ");
     length = user.nextDouble(); 
 
     Rectangle bedroom = new Rectangle();
